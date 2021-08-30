@@ -1,7 +1,7 @@
 const express = require('express');
 const { animals } = require('./data/animals');
 
-//sets port
+//sets port to environment variable or 3001 if environment not specified
 const PORT = process.env.PORT || 3001;
 const app = express();
 
